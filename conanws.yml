@@ -1,0 +1,8 @@
+editables:
+    proj1/0.1.0:
+        path: proj1
+    proj2/0.1.0:
+        path: proj2
+layout: layout
+workspace_generator: cmake
+root: proj1/0.1.0

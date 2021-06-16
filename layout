@@ -1,0 +1,16 @@
+{% set build_folder = "../cmake-build-debug" %}
+
+[build_folder]
+{{ build_folder }}
+
+[source_folder]
+.
+
+[includedirs]
+include
+
+[libdirs]
+{{ build_folder }}/lib
+
+[bindirs]
+{{ build_folder }}/bin
